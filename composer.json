@@ -1,0 +1,17 @@
+{
+    "name": "asus/sistem-keputusan-saw",
+    "description": "Aplikasi web dengan fitur sistem kuputas SAW (Simple Additive Weighting)",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\Saw\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "evanalifian",
+            "email": "evanalifian@gmal.com"
+        }
+    ],
+    "require": {}
+}

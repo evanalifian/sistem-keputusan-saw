@@ -1,0 +1,11 @@
+Options -Indexes
+
+RewriteEngine On
+RewriteBase /public
+
+# Jika file/folder yang diminta memang ada, biarkan Apache mengambilnya
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Jika tidak ada, teruskan semua request ke index.php
+RewriteRule ^ index.php [QSA,L]
