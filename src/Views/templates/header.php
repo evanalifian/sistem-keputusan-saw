@@ -7,3 +7,4 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body>
+    <div class="min-h-screen flex flex-col">
