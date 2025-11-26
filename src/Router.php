@@ -35,7 +35,9 @@ class Router {
     }
 
     http_response_code(404);
-    View::render("404");
+    View::render("404", [
+      "title" => "404 | Halaman tidak ditemukan"
+    ]);
   }
 
   public static function get($path, $controller, $function) {
