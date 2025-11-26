@@ -7,7 +7,7 @@ use App\Saw\View;
 class HomeController {
   private static $data = [
     "title" => "Simple Addtive Weighting",
-    "description" => "Sistem Pendukung Keputusan Menentukan Siswa Berprestasi dengan Metode SAW (Simple Addtive Weighting)",
+    "description" => "SISTEM PENDUKUNG KEPUTUSAN UNTUK MENENTUKAN PENDAKIAN GUNUNG TERBAIK DI JAWA TENGAH MENGGUNAKAN METODE SAW (SIMPLE ADDITIVE WEIGHTING)",
     "member" => [
       [
         "name" => "FATHAN RUHUL ALAM",
