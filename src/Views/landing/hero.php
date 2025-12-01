@@ -6,7 +6,7 @@
         class="relative left-[calc(50%-11rem)] aspect-1155/678 w-144.5 -translate-x-1/2 rotate-30 bg-linear-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-288.75">
       </div>
     </div>
-    <div class="mx-auto max-w-4xl">
+    <div class="mx-auto max-w-3xl">
       <div class="hidden sm:mb-8 sm:flex sm:justify-center">
         <div
           class="relative rounded-full px-3 py-1 text-sm/6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
@@ -19,7 +19,7 @@
         <div class="mt-10 flex items-center justify-center gap-x-6">
           <a href="#"
             class="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Mulai perhitungan</a>
-          <a href="/" class="text-sm/6 font-semibold text-gray-900">Studi kasus <span aria-hidden="true">→</span></a>
+          <a href="/studi-kasus" class="text-sm/6 font-semibold text-gray-900">Studi kasus <span aria-hidden="true">→</span></a>
         </div>
       </div>
     </div>

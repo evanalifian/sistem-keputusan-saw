@@ -4,7 +4,7 @@
             © 2025 Sistem Informasi. All rights reserved.
           </p>
           <div class="flex items-center space-x-6">
-            <a href="<?= $data["repository"] ?>" target="_blank" class="text-gray-500 hover:text-gray-700 transition">
+            <a href="https://github.com/evanalifian/sistem-keputusan-saw" target="_blank" class="text-gray-500 hover:text-gray-700 transition">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5">
                 <path d="M12 .5C5.648.5.5 5.648.5 
                 12c0 5.088 3.292 9.396 7.868 
