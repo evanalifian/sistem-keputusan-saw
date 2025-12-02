@@ -4,6 +4,7 @@ namespace App\Saw\Controllers;
 
 use App\Saw\View;
 use App\Saw\Models\AlternativeModel;
+use App\Saw\Models\CriteriaModel;
 
 class CalculationController {
   public function index() {
@@ -17,6 +18,23 @@ class CalculationController {
     View::render("calculation/alternative/index", [
       "title" => "Alternatif",
       "alternative" => $data
+    ]);
+  }
+  
+  public function criteria() {
+    $criteria = CriteriaModel::getCriteria();
+    $biaya = CriteriaModel::getBiaya();
+    $durasi = CriteriaModel::getDurasi();
+    $mata_air = CriteriaModel::getMataAir();
+    $popularitas = CriteriaModel::getPopularitas();
+
+    View::render("calculation/criteria/index", [
+      "title" => "Kriteria alternatif",
+      "criteria" => $criteria,
+      "biaya" => $biaya,
+      "durasi" => $durasi,
+      "mata_air" => $mata_air,
+      "popularitas" => $popularitas,
     ]);
   }
 

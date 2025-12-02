@@ -3,6 +3,7 @@
 namespace App\Saw\Models;
 
 use App\Saw\Config\Database;
+use App\Saw\Models\CriteriaModel;
 
 class AlternativeModel {  
   public static function getAll() {
@@ -27,6 +28,7 @@ class AlternativeModel {
 
   public static function add($data) {
     $conn = Database::connect();
+    $biaya = CriteriaModel::getBiaya();
   
     $alternatif = $data["alternative"];
     $biaya = $data["biaya"];

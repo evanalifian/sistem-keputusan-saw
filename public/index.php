@@ -14,6 +14,7 @@ Router::get("/studi-kasus", StudyCaseController::class, "index");
 // Calculation
 Router::get("/perhitungan", CalculationController::class, "index");
 Router::get("/perhitungan/alternatif", CalculationController::class, "alternatif");
+Router::get("/perhitungan/kriteria", CalculationController::class, "criteria");
 
 // Alternative
 Router::get("/perhitungan/alternatif/tambah", CalculationController::class, "addAlternatif");
@@ -21,5 +22,7 @@ Router::post("/perhitungan/alternatif/tambah", CalculationController::class, "ad
 Router::get("/perhitungan/alternatif/ubah", CalculationController::class, "updateAlternatif");
 Router::post("/perhitungan/alternatif/ubah", CalculationController::class, "updatePostAlternatif");
 Router::get("/perhitungan/alternatif/hapus", CalculationController::class, "deleteAlternatif");
+
+// Criteria
 
 Router::run();
